@@ -32,7 +32,7 @@
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "918101187835";   // You can Change this number //
+  gg = "6281255369012";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
@@ -44,8 +44,8 @@ global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
-global.packname = process.env.PACKNAME || `Atlas MD`;
-global.author = process.env.AUTHOR || "by: Team Atlas";
+global.packname = process.env.PACKNAME || `ASH SOLO`;
+global.author = process.env.AUTHOR || "by: ASH UCHIHA";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
